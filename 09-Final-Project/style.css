@@ -1,0 +1,29 @@
+.container{
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    height: 300px;
+    width: 400px;
+}
+figure div{
+    margin: 5px 10px;
+}
+table{
+    border: solid 2px black;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+}
+thead{
+    background-color:#BDB76B;
+}
+tbody{
+    background-color: #ffffe0;
+}

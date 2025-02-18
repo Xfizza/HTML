@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        datalist {
+            position: absolute;
+            background-color: white;
+            border: 1px solid blue;
+            border-radius: 0 0 5px 5px;
+            border-top: none;
+            font-family: sans-serif;
+            width: 350px;
+            padding: 5px;
+            max-height: 10rem;
+            overflow-y: auto
+        }
+
+        option {
+            background-color: white;
+            padding: 4px;
+            color: blue;
+            margin-bottom: 1px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        option:hover,
+        .active {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Form Title</legend>
+
+            <div>
+                <select name="selected" id="">
+                    <optgroup label="english">
+                        <option value="1">Kem 60</option>
+                        <option value="2">Majama</option>
+                        <option value="3">Kale</option>
+                    </optgroup>
+
+                    <optgroup label="hindi">
+                        <option value="4">aaje</option>
+                        <option value="5">param day</option>
+                        <option value="56">day after tomorrow</option>
+                    </optgroup>
+                </select>
+            </div>
+
+
+            <br><br>
+
+            <div>
+                <input type="text" name="" id="" list="list-items">
+                <datalist id="list-items">
+                    <option value="Option a"></option>
+                    <option value="Option ab"></option>
+                    <option value="Option ac"></option>
+                    <option value="Option b"></option>
+                    <option value="Option c"></option>
+                </datalist>
+            </div>
+
+
+            </datalist>
+
+            <br />
+            <br />
+            <div>
+                <p>checkbox</p>
+                <div>
+                    <input type="checkbox" name="language" id="lang1" value="english" />
+                    <label for="lang1">english</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="language" id="lang2" value="Hindi" />
+                    <label for="lang2">Hindi</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="language" id="lang3" value="Gujrati" />
+                    <label for="lang3">Gujrati</label>
+                </div>
+            </div>
+            <br />
+            <div>
+                <p>Gender</p>
+                <div>
+                    <input type="radio" name="gen" id="gen1" value="Male" />
+                    <label for="gen1">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gen" id="gen2" value="Female" />
+                    <label for="gen2">Female</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gen" id="gen3" value="others" />
+                    <label for="gen3">others</label>
+                </div>
+            </div>
+            <br />
+
+            <div>
+                <input type="submit" value="submit" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
